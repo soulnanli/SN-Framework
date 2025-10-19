@@ -1,0 +1,8 @@
+[
+  {
+    "id": 10000,
+    "description": "可移动范围",
+    "isLoop": true,
+    "res_path": "Prefabs/VFX/VFX_Move"
+  }
+]

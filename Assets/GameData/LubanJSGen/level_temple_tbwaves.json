@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "dependency_ids": [
+      0
+    ],
+    "time": 5,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50001,
+    "enemy_count": 5,
+    "interval_flag": false
+  },
+  {
+    "id": 2,
+    "dependency_ids": [
+      0
+    ],
+    "time": 10,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50001,
+    "enemy_count": 7,
+    "interval_flag": false
+  },
+  {
+    "id": 3,
+    "dependency_ids": [
+      1
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50002,
+    "enemy_count": 3,
+    "interval_flag": false
+  },
+  {
+    "id": 4,
+    "dependency_ids": [
+      3
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50002,
+    "enemy_count": 5,
+    "interval_flag": false
+  },
+  {
+    "id": 5,
+    "dependency_ids": [
+      4
+    ],
+    "time": 0,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50003,
+    "enemy_count": 3,
+    "interval_flag": true
+  },
+  {
+    "id": 6,
+    "dependency_ids": [
+      5
+    ],
+    "time": 10,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50001,
+    "enemy_count": 7,
+    "interval_flag": false
+  },
+  {
+    "id": 7,
+    "dependency_ids": [
+      6
+    ],
+    "time": 0,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50002,
+    "enemy_count": 7,
+    "interval_flag": false
+  },
+  {
+    "id": 8,
+    "dependency_ids": [
+      6
+    ],
+    "time": 0,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50003,
+    "enemy_count": 5,
+    "interval_flag": false
+  },
+  {
+    "id": 9,
+    "dependency_ids": [
+      6
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50002,
+    "enemy_count": 5,
+    "interval_flag": true
+  },
+  {
+    "id": 10,
+    "dependency_ids": [
+      9
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50003,
+    "enemy_count": 3,
+    "interval_flag": false
+  },
+  {
+    "id": 11,
+    "dependency_ids": [
+      9
+    ],
+    "time": 10,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50004,
+    "enemy_count": 2,
+    "interval_flag": false
+  },
+  {
+    "id": 12,
+    "dependency_ids": [
+      11
+    ],
+    "time": 0,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50004,
+    "enemy_count": 3,
+    "interval_flag": true
+  },
+  {
+    "id": 13,
+    "dependency_ids": [
+      12
+    ],
+    "time": 0,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50002,
+    "enemy_count": 8,
+    "interval_flag": false
+  },
+  {
+    "id": 14,
+    "dependency_ids": [
+      12
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50003,
+    "enemy_count": 5,
+    "interval_flag": false
+  },
+  {
+    "id": 15,
+    "dependency_ids": [
+      14
+    ],
+    "time": 10,
+    "spawn_point": [
+      7,
+      7
+    ],
+    "enemy_id": 50004,
+    "enemy_count": 4,
+    "interval_flag": false
+  },
+  {
+    "id": 16,
+    "dependency_ids": [
+      14
+    ],
+    "time": 0,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50003,
+    "enemy_count": 7,
+    "interval_flag": false
+  },
+  {
+    "id": 17,
+    "dependency_ids": [
+      16
+    ],
+    "time": 10,
+    "spawn_point": [
+      0,
+      7
+    ],
+    "enemy_id": 50004,
+    "enemy_count": 5,
+    "interval_flag": false
+  }
+]

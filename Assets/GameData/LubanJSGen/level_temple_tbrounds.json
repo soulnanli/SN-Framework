@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "wave_ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "deploy_config_id": 1
+  },
+  {
+    "id": 2,
+    "wave_ids": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "deploy_config_id": 0
+  },
+  {
+    "id": 3,
+    "wave_ids": [
+      10,
+      11,
+      12
+    ],
+    "deploy_config_id": 0
+  },
+  {
+    "id": 4,
+    "wave_ids": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "deploy_config_id": 0
+  }
+]

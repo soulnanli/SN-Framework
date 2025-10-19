@@ -1,0 +1,26 @@
+[
+  {
+    "ID": 1,
+    "comment": "测试属性",
+    "HP_MAX": 1000,
+    "MP_MAX": 100,
+    "ATK": 50,
+    "DEF": 50,
+    "ATK_RAN": 4,
+    "SPEED": 300,
+    "Size": 100,
+    "CRITICAL_RATE": 0.5,
+    "CRITICAL_DAMAGE_RATE": 0.5,
+    "BASE_HP_RECOVERY": 5,
+    "BASE_MP_RECOVERY": 1,
+    "HP_RECOVERY": 0,
+    "MP_RECOVERY": 0,
+    "ATTACK_SPEED": 0.3,
+    "SLOWING": 0,
+    "BREAK_SHIELD_PER": 0,
+    "BREAK_SHIELD_NUM": 0,
+    "INIT_LV": 1,
+    "ATTACK_SPEED_POWER": 1,
+    "BASE_ATTACK_SPEED": 0.625
+  }
+]
